@@ -1,13 +1,14 @@
-
-import './App.css';
+import "./css/App.css";
+import Form from "./Form";
 
 function App() {
   return (
-    <main>
-      <section className="landing">
-        <h1 id="header">Hey! I am<br/> Ababu Alemu</h1>
-      </section>
-    </main>
+    <>
+      <div className="container">
+        <h1 className="title">Add Tax</h1>
+        <Form />
+      </div>
+    </>
   );
 }
 

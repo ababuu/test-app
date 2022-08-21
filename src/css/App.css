@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+
+.container {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+  max-width: 48rem;
+  margin: 16px auto 1rem auto;
+  padding: 32px;
+  color: rgba(55, 65, 81);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+.tax-input-container {
+  width: 75%;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+.name,
+.rate,
+.search {
+  padding: 9px;
+  width: 100%;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(170, 170, 170);
+  outline: none;
+  font-size: 14px;
+}
+
+.name:focus,
+.rate:focus,
+.search:focus {
+  border-color: rgb(158, 158, 158);
+}
+
+.name-container {
+  width: 71%;
+}
+.rate-container {
+  width: 24%;
+  position: relative;
+}
+.rate {
+  padding-right: 24px;
+}
+.rate-icon {
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  font-size: 14px;
+  color: rgba(156, 163, 175);
+}
+
+.search-container {
+  width: 100%;
+  position: relative;
+}
+.search {
+  width: 40%;
+  padding-left: 24px;
+}
+.search-icon {
+  position: absolute;
+  color: rgba(107, 114, 128);
+  left: 8px;
+  top: 12px;
+  font-size: 12px;
+}
+.error {
+  border: 1px solid rgb(255, 102, 102);
+}
+hr {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.catagory-checkbox-container {
+  padding: 7px;
+  background-color: rgba(229, 231, 235);
+  margin-top: 16px;
+}
+.inner-checkbox-container {
+  margin-top: 28px;
+  margin-left: 25px;
+}
+.apply-btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.apply-btn {
+  background-color: rgb(241, 109, 55);
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 8px 16px 8px 16px;
+  color: white;
+  border: 1px solid transparent;
+}
+.apply-btn:hover {
+  border: 1px solid white;
+  background-color: rgb(229, 78, 16);
+  cursor: pointer;
+}
+.not-found {
+  padding: 16px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: rgba(75, 85, 99);
+}
+hr {
+  width: 110%;
+  border-top: 0.1px solid rgb(223, 223, 223);
+  border-bottom: 0px solid #fff;
+  margin-left: -35px;
+}
