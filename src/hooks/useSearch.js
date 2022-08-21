@@ -5,8 +5,6 @@ export default function useSearch(searchQuery, data) {
     data.map((item) => {
       if (item.name.toLowerCase().includes(searchQuery.toLowerCase())) {
         searchResult.push(item);
-      } else {
-        error = "No Items Found";
       }
     });
   }
